@@ -9,7 +9,7 @@ Commande reconstituée d'après les traces (elle n'a pas été notée pendant la
 python skeleton-multi-llm-en.py --run --models groq:openai/gpt-oss-20b --state state-B.jsonl --out traces-B.csv
 ```
 
-Note rédigée par Yohann à partir des traces (aide IA déclarée dans [prompts-ia/](../prompts-ia/)).
+Note rédigée par Yohann à partir des traces (aide IA déclarée ; prompts envoyés séparément à l'encadrant).
 
 ## Résultat
 

@@ -37,7 +37,7 @@ Aucune clé n'est dans ce dépôt. Les clés `GROQ_API_KEY` et `OPENROUTER_API_K
 | [`resultats/`](resultats/) | Le tableau croisé modèles × questions (une vue de la comparaison) |
 | [`outils/`](outils/) | Les scripts du groupe (fusion, comparaison, tableau croisé, vérification des références) |
 | [`reports/`](reports/) | Le rapport de chaque séance |
-| [`prompts-ia/`](prompts-ia/) | Les demandes faites à une IA pour l'aide au code, telles qu'écrites |
+| [`prompts-ia/`](prompts-ia/) | Réservé aux prompts d'aide au code ; à la demande de l'encadrant, ils lui sont envoyés séparément |
 | [`kit-docs/`](kit-docs/) | Les documents du kit (énoncés, protocole, guides, portefeuille, README d'origine), non modifiés |
 
 ## Rejouer le travail depuis un clone neuf
@@ -107,4 +107,4 @@ Fait :
 | openrouter:dots-studio/dots-3-note-preview:free | 13/20 | 6/6 | 2/5 | 4/4 | 1/5 |
 | openrouter:cohere/north-mini-code:free | 12/20 | 6/6 | 0/5 | 4/4 | 2/5 |
 
-Points ouverts : les prompts d'aide au code de Simon restent à ajouter dans [prompts-ia/](prompts-ia/) ; la cause des blocages de Lavinia et de Basile sur leur PC n'est pas documentée.
+Points ouverts : les prompts d'aide au code sont envoyés séparément à l'encadrant, à sa demande ; la cause des blocages de Lavinia et de Basile sur leur PC n'est pas documentée.

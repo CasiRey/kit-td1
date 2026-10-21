@@ -85,7 +85,7 @@ Familles : période C01, C04 à C07, C20 ; âge seul C02, C08 à C11 ; produits 
 |---|---|
 | Simon | Les 20 requêtes de référence et `outils/refs_all.py` ; lots E (Dots) et A (gpt-oss-120b, pour Basile) ; `notes/analyse-role-A.md` et `analyse-role-E.md` ; scripts de comparaison et de tableau croisé ; lignes A et E du résumé |
 | Casimir | Création du dépôt GitHub et dépôt des références ; lot B (gpt-oss-20b) ; `outils/test-c05.py` |
-| Yohann | Requêtes indépendantes de C13 à C16 et `outils/verif_references.py` ; Drive et feuilles de suivi du groupe ; lots D (Qwen) et C (Cohere, pour Lavinia) ; notes des lots B, C et D ; fusion des traces, extension de la comparaison aux cinq lots, lignes B, C et D du résumé, `prompts-en.md`, README et ce rapport (avec Claude Code, voir [prompts-ia/](../prompts-ia/)) |
+| Yohann | Requêtes indépendantes de C13 à C16 et `outils/verif_references.py` ; Drive et feuilles de suivi du groupe ; lots D (Qwen) et C (Cohere, pour Lavinia) ; notes des lots B, C et D ; fusion des traces, extension de la comparaison aux cinq lots, lignes B, C et D du résumé, `prompts-en.md`, README et ce rapport (avec Claude Code ; prompts envoyés séparément à l'encadrant) |
 | Lavinia | Rôle C attribué ; le lot n'a pas pu être lancé depuis son PC le 21/10/2026 (cause non documentée), il a été repris par Yohann |
 | Basile | Rôle A attribué ; le lot n'a pas pu être lancé depuis son PC le 21/10/2026 (cause non documentée), il a été repris par Simon |
 | Vianney | Absent le 21/10/2026 |
@@ -93,6 +93,6 @@ Familles : période C01, C04 à C07, C20 ; âge seul C02, C08 à C11 ; produits 
 
 ## 8. Suite et aide demandée
 
-- Avant le TD 2 : vérifier que chaque membre peut lancer le programme sur son PC (Lavinia et Basile n'ont pas pu le 21/10), et ajouter les prompts d'IA de Simon dans `prompts-ia/`.
+- Avant le TD 2 : vérifier que chaque membre peut lancer le programme sur son PC (Lavinia et Basile n'ont pas pu le 21/10), et envoyer à l'encadrant les prompts d'aide au code de chaque membre, comme il l'a demandé.
 - TD 2 : écrire `vote_k_sur_n` dans `skeleton-multi-llm-en.py` et le tester sur nos traces (C11 servira d'exemple de consensus faux et d'abstention) ; rédiger une règle de routage par famille de questions, en citant les cellules de ce TD. Hypothèse de départ, à vérifier : période et produits peuvent aller à n'importe lequel des cinq modèles ; les questions d'âge demandent gpt-oss-120b ou un contrôle.
 - Aide demandée : aucune pour l'instant.
