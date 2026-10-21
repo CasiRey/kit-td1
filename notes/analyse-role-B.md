@@ -3,9 +3,13 @@
 Opérateur : Casimir (commit `19486c2`, « Traces batch B »). Lot réel du 21/10/2026, entre 14h47:05 et 14h48:18 UTC.
 Traces brutes : [traces/traces-B.csv](../traces/traces-B.csv) et [traces/state-B.jsonl](../traces/state-B.jsonl).
 
-Commandes exactes utilisées : à compléter par Casimir. D'après les horodatages, les 20 questions sont parties d'affilée, avec la pause par défaut de 3 secondes.
+Commande reconstituée d'après les traces (elle n'a pas été notée pendant la séance) : les 20 questions sont parties en une seule exécution, de C01 à C20 dans l'ordre, avec 3 à 4 secondes entre deux appels, soit la pause par défaut de 3 secondes plus la latence. C20 apparaît deux fois : la tentative en 429 puis la reprise.
 
-Note rédigée par Yohann à partir des traces, avec l'aide de Claude Code ; les explications sont à relire par Casimir.
+```
+python skeleton-multi-llm-en.py --run --models groq:openai/gpt-oss-20b --state state-B.jsonl --out traces-B.csv
+```
+
+Note rédigée par Yohann à partir des traces (aide IA déclarée dans [prompts-ia/](../prompts-ia/)).
 
 ## Résultat
 

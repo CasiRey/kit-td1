@@ -1,6 +1,6 @@
 # Rapport du TD 1 : comparer cinq modèles sur les mêmes questions
 
-Séance du 21/10/2026. Pack `2026-10-18-students-1`, sélection de modèles du 14/10/2026.
+DIA4, sous-groupe 4. Séance du 21/10/2026. Pack `2026-10-18-students-1`, sélection de modèles du 14/10/2026.
 Toutes les valeurs ci-dessous viennent des fichiers du dépôt ; chaque affirmation renvoie à sa preuve.
 
 ## 1. Ce qui a été fait
@@ -86,13 +86,13 @@ Familles : période C01, C04 à C07, C20 ; âge seul C02, C08 à C11 ; produits 
 | Simon | Les 20 requêtes de référence et `outils/refs_all.py` ; lots E (Dots) et A (gpt-oss-120b, pour Basile) ; `notes/analyse-role-A.md` et `analyse-role-E.md` ; scripts de comparaison et de tableau croisé ; lignes A et E du résumé |
 | Casimir | Création du dépôt GitHub et dépôt des références ; lot B (gpt-oss-20b) ; `outils/test-c05.py` |
 | Yohann | Requêtes indépendantes de C13 à C16 et `outils/verif_references.py` ; Drive et feuilles de suivi du groupe ; lots D (Qwen) et C (Cohere, pour Lavinia) ; notes des lots B, C et D ; fusion des traces, extension de la comparaison aux cinq lots, lignes B, C et D du résumé, `prompts-en.md`, README et ce rapport (avec Claude Code, voir [prompts-ia/](../prompts-ia/)) |
-| Lavinia | Rôle C attribué ; bloquée sur son PC. Cause du blocage et autre contribution : à compléter par Lavinia |
-| Basile | Rôle A attribué ; bloqué sur son PC. Cause du blocage et autre contribution : à compléter par Basile |
+| Lavinia | Rôle C attribué ; le lot n'a pas pu être lancé depuis son PC le 21/10/2026 (cause non documentée), il a été repris par Yohann |
+| Basile | Rôle A attribué ; le lot n'a pas pu être lancé depuis son PC le 21/10/2026 (cause non documentée), il a été repris par Simon |
 | Vianney | Absent le 21/10/2026 |
 | Augustin | Absent le 21/10/2026 |
 
 ## 8. Suite et aide demandée
 
-- Compléter les points ouverts avant le rendu du 25/10/2026 : numéro du sous-groupe, causes des blocages de Lavinia et Basile, commandes exactes du lot B, prompts d'IA de Simon.
+- Avant le TD 2 : vérifier que chaque membre peut lancer le programme sur son PC (Lavinia et Basile n'ont pas pu le 21/10), et ajouter les prompts d'IA de Simon dans `prompts-ia/`.
 - TD 2 : écrire `vote_k_sur_n` dans `skeleton-multi-llm-en.py` et le tester sur nos traces (C11 servira d'exemple de consensus faux et d'abstention) ; rédiger une règle de routage par famille de questions, en citant les cellules de ce TD. Hypothèse de départ, à vérifier : période et produits peuvent aller à n'importe lequel des cinq modèles ; les questions d'âge demandent gpt-oss-120b ou un contrôle.
 - Aide demandée : aucune pour l'instant.

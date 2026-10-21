@@ -5,7 +5,7 @@ Dépôt partagé du sous-groupe du TD 1 (21/10/2026) au TD 3 (11/12/2026).
 
 ## Sous-groupe
 
-- Numéro du sous-groupe et DIA : à compléter.
+- Classe DIA4, sous-groupe 4.
 - Membres : Basile, Casimir, Lavinia, Simon, Yohann, Vianney, Augustin.
 - Absents le 21/10/2026 : Vianney et Augustin.
 - Qui a fait quoi : voir [reports/td1.md](reports/td1.md), section « Contributions ».
@@ -107,4 +107,4 @@ Fait :
 | openrouter:dots-studio/dots-3-note-preview:free | 13/20 | 6/6 | 2/5 | 4/4 | 1/5 |
 | openrouter:cohere/north-mini-code:free | 12/20 | 6/6 | 0/5 | 4/4 | 2/5 |
 
-Points ouverts : le numéro du sous-groupe, la cause précise des blocages de Lavinia et de Basile, les commandes exactes du lot B et les prompts d'aide au code de chaque membre (voir [prompts-ia/](prompts-ia/)).
+Points ouverts : les prompts d'aide au code de Simon restent à ajouter dans [prompts-ia/](prompts-ia/) ; la cause des blocages de Lavinia et de Basile sur leur PC n'est pas documentée.
