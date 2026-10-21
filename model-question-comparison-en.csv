@@ -1,1 +1,41 @@
 case_id,model_id,trace_file,cell_id,nature,status,value_cents,reference_cents,explanation
+C01,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C01,real,correct,792800,792800,Value equals the checked reference.
+C02,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C02,real,correct,590320,590320,Value equals the checked reference.
+C03,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C03,real,correct,936350,936350,Value equals the checked reference.
+C04,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C04,real,correct,2826250,2826250,Value equals the checked reference.
+C05,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C05,real,correct,38480,38480,Value equals the checked reference.
+C06,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C06,real,correct,0,0,Value equals the checked reference.
+C07,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C07,real,correct,13970,13970,Value equals the checked reference.
+C08,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C08,real,correct,605580,605580,Value equals the checked reference.
+C09,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C09,real,correct,487980,487980,Value equals the checked reference.
+C10,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C10,real,correct,558980,558980,Value equals the checked reference.
+C11,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C11,real,correct,446690,446690,Value equals the checked reference.
+C12,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C12,real,correct,1666490,1666490,Value equals the checked reference.
+C13,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C13,real,correct,107740,107740,Value equals the checked reference.
+C14,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C14,real,correct,0,0,Value equals the checked reference.
+C15,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C15,real,correct,168680,168680,Value equals the checked reference.
+C16,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C16,real,correct,376740,376740,Value equals the checked reference.
+C17,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C17,real,correct,258180,258180,Value equals the checked reference.
+C18,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C18,real,correct,62480,62480,Value equals the checked reference.
+C19,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C19,real,correct,1990,1990,Value equals the checked reference.
+C20,groq:openai/gpt-oss-120b,traces/traces-A.csv,groq:openai/gpt-oss-120b:C20,real,correct,1106090,1106090,Value equals the checked reference.
+C01,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C01,real,correct,792800,792800,Value equals the checked reference.
+C02,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C02,real,incorrect,321340,590320,"Age convention broken: keeps only year difference = 25 with birthday already reached; misses customers with year difference = 26 whose birthday has not come yet (still 25). Valid SQL, wrong meaning. (reference date 2026-09-25) See notes/analyse-role-E.md."
+C03,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C03,real,correct,936350,936350,Value equals the checked reference.
+C04,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C04,real,correct,2826250,2826250,Value equals the checked reference.
+C05,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C05,real,correct,38480,38480,Value equals the checked reference.
+C06,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C06,real,correct,0,0,Value equals the checked reference.
+C07,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C07,real,correct,13970,13970,Value equals the checked reference.
+C08,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C08,real,incorrect,445160,605580,"Age convention broken: the first branch requires the birthday to be exactly 09-24 (<= and >= on month-day), so customers aged 25 with an earlier birthday are missed; the second branch (year difference 26, birthday not reached) is right. See notes/analyse-role-E.md."
+C09,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C09,real,correct,487980,487980,Value equals the checked reference.
+C10,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C10,real,correct,558980,558980,Value equals the checked reference.
+C11,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C11,real,incorrect,0,446690,"Question misread: filters birth_date = '2001-12-01' (exact birthday) and orders placed on 2026-12-01; the reference date is not an order date and no order exists then, so 0. See notes/analyse-role-E.md."
+C12,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C12,real,correct,1666490,1666490,Value equals the checked reference.
+C13,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C13,real,correct,107740,107740,Value equals the checked reference.
+C14,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C14,real,correct,0,0,Value equals the checked reference.
+C15,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C15,real,incorrect,138920,168680,"Age convention broken: keeps only year difference = 25 with birthday already reached; misses customers with year difference = 26 whose birthday has not come yet (still 25). Valid SQL, wrong meaning. Period filter correct. See notes/analyse-role-E.md."
+C16,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C16,real,incorrect,211260,376740,"Age convention broken: keeps only year difference = 25 with birthday already reached; misses customers with year difference = 26 whose birthday has not come yet (still 25). Valid SQL, wrong meaning. Product filter correct. See notes/analyse-role-E.md."
+C17,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C17,real,incorrect,152730,258180,"Age convention broken: keeps only year difference = 25 with birthday already reached; misses customers with year difference = 26 whose birthday has not come yet (still 25). Valid SQL, wrong meaning. Period and product filters correct. See notes/analyse-role-E.md."
+C18,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C18,real,incorrect,39580,62480,"Age at the time of the order: same half-window error computed on o.date (year difference 25 and birthday reached only); misses customers in year difference 26 before their birthday. Period filter correct. C10, same family without period, is correct. See notes/analyse-role-E.md."
+C19,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C19,real,correct,1990,1990,Value equals the checked reference.
+C20,openrouter:dots-studio/dots-3-note-preview:free,traces/traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C20,real,correct,1106090,1106090,Value equals the checked reference.
