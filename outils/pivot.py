@@ -1,17 +1,17 @@
 r"""
 TD 1 - Models x questions pivot of the comparison CSV, for the plenary.
 
-Run from the kit-td1 folder, with one or several comparison files:
-    .venv\Scripts\python.exe pivot.py comparison-E.csv
-    .venv\Scripts\python.exe pivot.py model-question-comparison-en.csv
+Run from the repository root, with one or several comparison files:
+    python outils/pivot.py model-question-comparison-en.csv
 
-Prints the matrix and writes pivot-td1.md (a view of the long CSV, not a second entry).
+Prints the matrix and writes resultats/pivot-td1.md (a view of the long CSV, not a second entry).
 Symbols: OK correct, X incorrect, R sql_rejected / invalid, - not executed or missing.
 """
 import csv
 import sys
 from pathlib import Path
 
+OUT = Path(__file__).resolve().parent.parent / "resultats" / "pivot-td1.md"
 SYMBOL = {"correct": "OK", "incorrect": "X"}
 CASES = [f"C{i:02d}" for i in range(1, 21)]
 
@@ -44,11 +44,12 @@ def main(paths):
 
     text = "\n".join(lines)
     print(text)
-    Path("pivot-td1.md").write_text(
+    OUT.parent.mkdir(exist_ok=True)
+    OUT.write_text(
         "# TD 1 - models x questions (view of the comparison CSV)\n\n"
         "OK correct, X incorrect, R rejected/invalid, - not executed\n\n" + text + "\n",
         encoding="utf-8")
-    print("\nWritten: pivot-td1.md")
+    print(f"\nWritten: {OUT.relative_to(OUT.parent.parent).as_posix()}")
 
 
 if __name__ == "__main__":

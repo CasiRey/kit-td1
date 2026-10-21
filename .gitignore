@@ -17,6 +17,12 @@ venv/
 __pycache__/
 *.pyc
 
+# Files regenerated when replaying the work (README, steps 2 and 3); the
+# submitted results are the real traces, never replayed or simulated rows.
+traces-replay.*
+traces-demo.*
+outils/references-all.csv
+
 # Editor and operating-system files
 .vscode/
 .idea/

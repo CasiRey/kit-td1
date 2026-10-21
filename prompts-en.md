@@ -1,9 +1,24 @@
+# Prompts used in TD 1
+
+Copied by `outils/export_prompts.py` from `SYSTEM_PROMPT` and `USER_PROMPT_TEMPLATE` in
+`skeleton-multi-llm-en.py`, unchanged since the kit of 14 October 2026. The same prompt was
+sent to the five models; no variant was used.
+
+Check: the SHA-256 fingerprint recomputed for C01 is `d25f63730bdd4980e31c3e5a449f59f3410bcee3a2cfc132d8f38efab03b1bdd`; the traces store
+the same value for C01 on all five models.
+
 ## System message
 
+```
 You write SQLite queries for a small e-commerce database. Reply with exactly one SQLite SELECT statement and nothing else: no explanation, no comments, no markdown other than an optional ```sql fence.
+```
 
 ## User template
 
+`{schema}` is replaced by `schema.sql` (shown below) and `{question}` by the question text
+from `questions-td1.json`.
+
+```
 Schema (SQLite):
 {schema}
 
@@ -18,3 +33,30 @@ Conventions (binding):
 - Use only the tables above. One SELECT statement, nothing else.
 
 Question: {question}
+```
+
+## Schema inserted in `{schema}`
+
+```sql
+-- Prototype orchestrator, ESILV "Next-Generation AI" (task 1572).
+-- Three tables, exactly as specified. Prices are euro cents excluding VAT.
+-- orders.date and customers.insert_date: UTC timestamps 'YYYY-MM-DD HH:MM:SS'.
+-- customers.birth_date: date 'YYYY-MM-DD'.
+CREATE TABLE product (
+    product_id TEXT PRIMARY KEY,
+    price INTEGER NOT NULL CHECK (price >= 0)
+);
+CREATE TABLE customers (
+    customer_id TEXT PRIMARY KEY,
+    insert_date TEXT NOT NULL,
+    birth_date TEXT NOT NULL
+);
+CREATE TABLE orders (
+    date TEXT NOT NULL,
+    order_id TEXT NOT NULL,
+    customer_id TEXT NOT NULL REFERENCES customers(customer_id),
+    product_id TEXT NOT NULL REFERENCES product(product_id),
+    quantity_product INTEGER NOT NULL CHECK (quantity_product > 0),
+    PRIMARY KEY (order_id, product_id)
+);
+```

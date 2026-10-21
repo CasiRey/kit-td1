@@ -1,6 +1,6 @@
 # Analyse du rôle A : groq:openai/gpt-oss-120b
 
-Rôle attribué à un autre membre du sous-groupe. Le lot ne fonctionnait pas sur son PC le 21/10/2026 ; il a été lancé par Simon (rôle E), avec son propre compte Groq, comme le protocole le permet (répartir les cellules entre les membres qui ont encore de la capacité). Lot réel du 21/10/2026, vers 14h48-14h52 UTC.
+Rôle attribué à Basile. Le lot ne fonctionnait pas sur son PC le 21/10/2026 ; il a été lancé par Simon (rôle E), avec son propre compte Groq, comme le protocole le permet (répartir les cellules entre les membres qui ont encore de la capacité). Lot réel du 21/10/2026, vers 14h48-14h52 UTC.
 Traces brutes : [traces/traces-A.csv](../traces/traces-A.csv) et [traces/state-A.jsonl](../traces/state-A.jsonl).
 
 ## Capacité vérifiée avant le lancement

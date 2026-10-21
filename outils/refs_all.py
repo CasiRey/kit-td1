@@ -1,8 +1,8 @@
 r"""
 TD 1 - References for the twenty questions C01 to C20.
 
-Run from the kit-td1 folder:
-    .venv\Scripts\python.exe refs_all.py
+Run from the repository root:
+    python outils/refs_all.py
 
 1. Builds one SQLite SELECT per question and runs it on data/boutique.sqlite
    (opened read-only).
@@ -22,7 +22,7 @@ import sqlite3
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-DATA = HERE / "data"
+DATA = HERE.parent / "data"            # the script lives in outils/, the database at the repository root
 DB = DATA / "boutique.sqlite"
 
 # Parameters of each question, read from questions-td1-en:
