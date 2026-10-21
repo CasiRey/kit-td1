@@ -1,0 +1,2 @@
+# Raw traces are evidence: store them byte for byte, without line-ending conversion.
+traces/** -text
