@@ -6,7 +6,7 @@ Dépôt partagé du sous-groupe du TD 1 (21/10/2026) au TD 3 (11/12/2026).
 ## Sous-groupe
 
 - Classe DIA4, sous-groupe 4.
-- Membres : Basile, Casimir, Lavinia, Simon, Yohann, Vianney, Augustin.
+- Membres : Basile Chabrel, Casimir Rey, Lavinia Zolzettich, Simon Leclercq, Yohann Baduy, Vianney Robert, et Augustin Nilsson.
 - Absents le 21/10/2026 : Vianney et Augustin.
 - Qui a fait quoi : voir [reports/td1.md](reports/td1.md), section « Contributions ».
 
